@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="main">
+            <div class="top">
+                <h1>Network</h1>
+            </div>
+            <div class="feed">
+                <h1>Your Feed</h1>
+            </div>
+            <div class="flex">
+                <div class="col-1">
+                    <div class="user-card">
+                        <img src="user-circle.png" alt="">
+                        <a href="#">Add an avatar</a>
+                        <h1>James Doe</h1>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="feed-card">
+                        <div class="title">
+                            <h2>Neil M</h2>
+                            <p>
+                                <span id="likes1">0</span> like(s)
+                                <button class="like" onclick="like('#likes1')">Like</button>
+                            </p>
+                            <!-- <button class="like" onclick="like()">Like</button> -->
+                        </div>
+                        <p class="desc">I just set up this new discord bot, let me know what you all think. 
+                            <a href="#">link</a>
+                        </p>
+                    </div>
+                    <div class="feed-card">
+                        <div class="title">
+                            <h2>Nichole K</h2>
+                            <p>
+                                <span id="likes2">0</span> like(s)
+                                <button class="like" onclick="like('#likes2')">Like</button>
+                            </p>
+                            <!-- <button class="like" onclick="like()">Like</button> -->
+                        </div>
+                        <p class="desc">Just finished my
+                            <a href="#">next comic</a>,check it out.
+                        </p>
+                    </div>
+                    <div class="feed-card">
+                        <div class="title">
+                            <h2>Jim R</h2>
+                            <p>
+                                <span id="likes3">0</span> like(s)
+                                <button class="like" onclick="like('#likes3')">Like</button>
+                            </p>
+                            <!-- <button class="like" onclick="like()">Like</button> -->
+                        </div>
+                        <p class="desc">I can't stop listening to the
+                            <a href="#">new album</a>.<br>
+                            Who else is liking it?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
